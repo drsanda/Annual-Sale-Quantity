@@ -1,0 +1,5 @@
+Annual Sale Quantity = CALCULATE(
+    SUM('Past Orders'[ Quantity]),
+    FILTER('Past Orders',
+    'Past Orders'[Product Code]='Stock Quantity'[Product Code] &&
+    'Past Orders'[ Date]>=TODAY()-365))+0
