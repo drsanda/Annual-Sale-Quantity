@@ -1,0 +1,4 @@
+Average Weekly Demand = CALCULATE(
+    average('Weekly Demand Sheet'[Weeks Demand]),
+    FILTER('Weekly Demand Sheet',
+    'Weekly Demand Sheet'[Product Code]='Stock Quantity'[Product Code]))
