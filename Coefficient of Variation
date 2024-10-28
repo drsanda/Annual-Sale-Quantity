@@ -1,0 +1,1 @@
+Coefficient of Variation = IF('Stock Quantity'[SD of Weekly Demand]>0,'Stock Quantity'[SD of Weekly Demand]/'Stock Quantity'[Average Weekly Demand],1000)
