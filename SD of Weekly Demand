@@ -1,0 +1,4 @@
+SD of Weekly Demand = CALCULATE(
+    STDEV.P('Weekly Demand Sheet'[Weeks Demand]),
+    FILTER('Weekly Demand Sheet',
+    'Stock Quantity'[Product Code] = 'Weekly Demand Sheet'[Product Code]))
