@@ -1,0 +1,1 @@
+ABC Analysis = IF('Stock Quantity'[Cummilative Share]<=70,"A [High Value]",IF('Stock Quantity'[Cummilative Share]<=90,"B {Medium Value]","C [Less Value]"))
