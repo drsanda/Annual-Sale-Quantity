@@ -1,0 +1,4 @@
+Cummilative Share = CALCULATE(
+    SUM('Stock Quantity'[Revenue Share %]),
+    FILTER('Stock Quantity',
+    'Stock Quantity'[Revenue Share %]>=EARLIER('Stock Quantity'[Revenue Share %])))
